@@ -13,5 +13,5 @@ RUN chmod +x /usr/config/entrypoint.sh
 RUN chmod +x /usr/config/configure-db.sh
 
 USER mssql
-
+EXPOSE 1433
 ENTRYPOINT ["./entrypoint.sh"]
